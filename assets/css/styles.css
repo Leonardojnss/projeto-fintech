@@ -1,0 +1,60 @@
+/* Fundo geral da página */
+body {
+    background-color: #F3E5F5; /* Roxo claro - lilás */
+    font-family: Arial, sans-serif;
+}
+
+/* Título principal */
+h2 {
+    font-weight: bold;
+    color: #6A1B9A; /* Roxo escuro */
+}
+
+/* Cards */
+.card {
+    background-color: #E1BEE7; /* Tom intermediário de roxo */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(106, 27, 154, 0.2); /* Sombra suave roxa */
+}
+
+.card-body h4 {
+    color: #4A148C; /* Roxo mais escuro para título do saldo */
+}
+
+.display-6 {
+    color: #2E0854; /* Roxo bem escuro para o valor do saldo */
+}
+
+/* Lista de transações */
+.list-group-item {
+    background-color: #D1C4E9; /* Roxo claro nas linhas */
+    border: none;
+    color: #4A148C; /* Roxo médio para o texto */
+}
+
+.list-group-item span:last-child {
+    font-weight: bold;
+    color: #880E4F; /* Roxo escuro/vinho para os valores das transações */
+}
+
+/* Botões personalizados nos tons de roxo */
+.btn-outline-primary {
+    color: #6A1B9A;
+    border-color: #6A1B9A;
+}
+
+.btn-outline-primary:hover {
+    background-color: #6A1B9A;
+    color: white;
+}
+
+.btn-outline-secondary {
+    color: #4A148C;
+    border-color: #4A148C;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #4A148C;
+    color: white;
+}
